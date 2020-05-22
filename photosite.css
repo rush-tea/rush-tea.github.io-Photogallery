@@ -58,7 +58,7 @@ img {
 	text-align: center;
 	background-color: #fff;	
 	padding-bottom: 0.5rem;
-	background-image: linear-gradient(to left top, #ffffff, #fafafc, #f4f4f9, #eeeff7, #e7eaf4, #e1e6f0, #dbe3ec, #d5dfe8, #d0dbe2, #cbd7dc, #c7d3d5, #c4cfcf);
+	background-image: radial-gradient(circle, #ffffff, #fafafc, #f6f6f9, #f0f1f7, #ebedf4, #e9ecf3, #e6ebf1, #e4eaf0, #e4ecf0, #e5edf0, #e7eff0, #e9f0f0);
 }
 .fa {
   padding: 0.5rem;
