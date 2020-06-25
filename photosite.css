@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Quicksand:wght@300&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Sacramento&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla&family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Quicksand:wght@300&family=Slabo+27px&display=swap');
@@ -15,8 +17,12 @@ body{
 	width: 60%;
 	height: 60%;
 }
+.navbar-brand{
+	font-family: 'MuseoModerno', cursive;
+}
 .bg-dark{
 	background: transparent !important;
+	transition: ease 2s;
 }
 .bg-dark.scrolled{
 	background: #111 !important;
@@ -25,7 +31,7 @@ main h1 {
 	font-family: 'MuseoModerno', cursive;
 }
 main h6 {
-	font-family: 'Karla', sans-serif;
+	font-family: 'Quicksand', serif;
 }
 .head {
 	margin: 0 0;
