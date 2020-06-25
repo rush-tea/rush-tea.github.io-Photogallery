@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla&family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Quicksand:wght@300&family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 body{
 	background-color: black;
 	color: white;
@@ -58,9 +59,9 @@ main h6 {
 	 text-align: center;
  }
 
- .col-content {
-	 text-align: center;
- }
+.col-content {
+	text-align: center;
+}
 .container .row .col-content {
 	overflow: hidden;
 }
@@ -84,8 +85,9 @@ footer .col-content {
 
 .fa {
 	color: whitesmoke;
-	background-color: blueviolet;
-	padding: 0.4rem;
+	background-color: #47476b;
+	font-size: x-small;
+	padding: 0.3rem;
 	border-radius: 1.3rem;
  }
 .fa-camera{
@@ -99,13 +101,25 @@ footer .col-content {
 }
 footer{
 	background-image: #111;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: rgba(20, 20, 20, 1);
 }
 #about-hr{
-	border: 0.5px solid white;
+	border: 0.1px solid rgba(255, 255 , 255, 0.1);
 	width: 30%;
 }
+#work-hr{
+	border: 0.1px solid rgba(255, 255 , 255, 0.1);
+	width: 30%;
+	margin-bottom: 0px;
+}
+#about-hr-large{
+	border: 0.1px solid rgba(255, 255 , 255, 0.1);
+	width: 70%;
+}
 #caption-hr{
-	border: 0.1px solid whitesmoke;
+	border: 0.1px solid rgba(255,255,255,0.2) !important;
 	width: 70%;
 	margin-top: 1rem;
 }
@@ -113,12 +127,49 @@ footer{
 	align-items: center;
 	text-align: center;
 	justify-content: center;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-family: 'Quicksand', sans-serif;
+	color: rgba(255, 255 , 255, 1);
 }
 img {
 	padding-top: 40px;
 	padding-left: 40px;
 	padding-right: 40px;
 }
-
+#container-top{
+	padding-top: 0px;
+}
+.con-us p{
+	margin: 0px;
+}
+footer .container h1 {
+	font-family: 'MuseoModerno', cursive;
+}
+footer .top {
+	padding-bottom: 5px;
+}
+footer hr{
+	border: 0.1px solid rgba(255, 255 , 255, 0.1);
+	width: 30%;
+}
+footer .bottom{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+footer .bottom h1 {
+	font-size: 1.8rem;
+	color: rgba(255, 255 , 255, 0.6);
+}
+footer p {
+	color: rgba(255, 255 , 255, 0.8);
+}
+#footer-hr{
+	border: 0.1px solid rgba(255, 255 , 255, 0.1);
+	width: 50%;
+}
+#about-col{
+	font-family: 'Quicksand', sans-serif;
+	padding-left: 50px;
+	padding-right: 50px;
+}
