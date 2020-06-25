@@ -1,0 +1,27 @@
+{
+  "name": "rush-tea.github.io-photogallery",
+  "version": "1.0.0",
+  "description": "A photogallery website reprenting instagram page of same name",
+  "main": "app.js",
+  "dependencies": {
+    "particles.js": "^2.0.0",
+    "start": "^5.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rush-tea/rush-tea.github.io-Photogallery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rush-tea/rush-tea.github.io-Photogallery/issues"
+  },
+  "homepage": "https://github.com/rush-tea/rush-tea.github.io-Photogallery#readme",
+  "scripts" : {
+    "start":"node app.js"
+  }
+}
