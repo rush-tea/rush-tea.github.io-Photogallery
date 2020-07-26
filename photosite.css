@@ -181,3 +181,34 @@ footer p {
 	padding-left: 50px;
 	padding-right: 50px;
 }
+
+
+/* Sorting Styling  */
+
+#all{
+	background-color: red;
+}
+.sorting{
+	margin-top: 1em ;
+	display: flex;
+	justify-content: center;
+}
+
+.sorting-column{
+	justify-content: center;
+	margin: 0.2em;
+}
+
+.sorting-btn{
+	background-color: black;
+	color: white;
+	margin: 0.2em;
+	border-radius: 0.3em ;
+}
+
+@media (max-width:600px){
+	.sorting{
+		flex-direction: column;
+		align-items: center;
+	}
+}
